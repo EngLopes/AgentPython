@@ -18,10 +18,10 @@ db = Chroma(persist_directory=CAMINHO_DB, embedding_function=funcao_embeddings)
 # 3. Carrega o modelo do Ollama (Uma vez só, já configurado para CPU)
 llm = OllamaLLM(
     model="qwen2.5:0.5b", 
-    temperature=0.3,
-    num_gpu=0,
-    num_thread=6,
-    num_predict=300
+    temperature=0.1,
+    num_gpu=1,
+    num_thread=4,
+    num_predict=200
 
 )
 
@@ -34,6 +34,7 @@ REGRAS:
 1. Se o contexto não contiver a resposta, diga APENAS: "A documentação não informa."
 2. NÃO invente informações.
 3. Seja direto e curto.
+4. Você não pode de forma alguma aumentar muita coisa que não esteja no contexto fornecido.
 
 Contexto:
 {informacoes}
@@ -54,10 +55,12 @@ async def atendimento_bot(requisicao: Requisicao):
     resultados = db.similarity_search_with_relevance_scores(requisicao.pergunta, k=3)
 
     # Se não achar nada bom o suficiente, barra aqui mesmo
-    if len(resultados) == 0 or resultados[0][1] < 0.2:
+    if len(resultados) == 0 or resultados[0][1] < 0.3:
         return {
             "pergunta": requisicao.pergunta,
             "resposta": "Desculpe, não encontrei nenhuma documentação sobre esse problema.",
+            "documentos_consultados": len(resultados),
+            "percentuais_relevancia": [score for doc, score in resultados],
             "status": "sem_contexto"
         }
 
@@ -77,5 +80,6 @@ async def atendimento_bot(requisicao: Requisicao):
         "pergunta": requisicao.pergunta,
         "resposta": resposta_ia.strip(),
         "documentos_consultados": len(resultados),
+        "percentuais_relevancia": [score for doc, score in resultados],
         "status": "sucesso"
     }

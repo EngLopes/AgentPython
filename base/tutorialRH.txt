@@ -1,0 +1,44 @@
+Aplicativo Meu RH
+De A Nossa WiKi
+O aplicativo Meu RH foi disponibilizado por nossa empresa para trazer mais flexibilidade e eficiência nas rotinas dos nossos colaboradores, além de colaborar na questão socioambiental gerando economia nas impressões de papéis.
+
+Com a implementação dessa ferramenta, os colaboradores passaram a ter informações em tempo real nos seguintes processos: Contracheque, Espelho de Ponto, Aviso e Recibo de Férias, Informe de Rendimentos, Dados Cadastrais, etc.
+
+Os Gestores passaram a ter acesso às informações das suas respectivas equipes na palma da mão, como por exemplo, registro do ponto, vencimento dos períodos de férias, informações de contrato de trabalho, enfim, uma série de oportunidades e facilidades, tudo isso em tempo real.
+
+O Aplicativo Meu RH é uma ferramenta desenvolvida pela empresa Totvs, uma das maiores empresas de tecnologia e gestão de sistemas integrados do Brasil. A nossa área de Desenvolvimento em TI, apoiou a área de RH nesse grande projeto de implantação.
+
+Vejamos abaixo como realizar o acesso a ferramenta Meu RH:
+1º passo: Baixar o aplicativo MEU RH nos aparelhos de smartfones, tablets ou Iphones.
+
+2º passo: Ao abrir o app, clique em configurações e em seguida "Ler Qr Code" e aproxime o leitor da imagem abaixo.
+
+Qrcode app meu rh-image.png
+
+3º passo: Login 1-000 + matrícula (Exemplo: 1-0004080)
+
+4º passo: Senha de primeiro acesso será 123456 (apenas números)
+
+Logo em seguida aparecerá a opção de alterar senha, daí o colaborador poderá escolher uma senha pessoal.
+
+DICA: Se o colaborador tiver dificuldade de baixar o aplicativo por problemas de espaço nos celulares ou tablets a sugestão é que seja feito o acesso através deste link no navegador do próprio aparelho:
+
+http://colaborador.anossadrogaria.com.br:5555/framehtml/web/app/rh/portalmeurh/
+
+ESQUECIMENTO DE SENHAS
+
+Se o colaborador esquecer a sua senha, deverá clicar na opção "Esqueci a Minha Senha", logo a seguir aparecerá a tela para que seja inserido a conta de e-mail pessoal do colaborador. O mesmo deverá confirmar a operação e logo após, verificar na caixa de entrada do e-mail o link para renovação de senha.
+
+Observação: Se porventura o colaborador não tiver a conta de e-mail cadastrado no sistema de folha de pagamento, ele deverá requisitar a sua liderança para que comunique ao RH imediatamente.
+
+DICA IMPORTANTE
+
+- O App Meu RH para que tenha um bom funcionamento depende também que a internet do aparelho do celular ao utilizar os "Dados Móveis" esteja adequada, ou seja, com uma boa frequência de sinal.
+
+- Em certos momentos ao tentar realizar o acesso poderá ocorrer uma certa demora para que seja completado 100%, ou seja, o aplicativo vai entrar em processamento e a orientação é que os colaboradores aguardem até o final do processo. Essa demora poderá oscilar entre 03 a 05 minutos, pois nesse momento o aplicativo está se conectando com o servidor da empresa.
+
+- Quando os acessos são realizados através de rede de WiFi o processamento ocorre bem mais rápido e com isso o colaborador consegue se logar rapidamente ao Aplicativo.
+
+- Alguns aparelhos de celulares permitem que seja cadastrado a biometria dos dedos como senha de acesso, essa é uma dica interessante, pois dessa forma será evitado o esquecimento de senha, além é claro de trazer mais segurança aos colaboradores.
+
+- Se porventura for preciso excluir o aplicativo do celular e baixar novamente, será necessário a validação do QR Code para reconhecimento do ambiente da nossa empresa no qual é vinculado aos usuários dos colaboradores.

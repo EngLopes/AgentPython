@@ -60,7 +60,7 @@ langgraph-prebuilt==1.1.0
 langgraph-sdk==0.4.2
 langsmith==0.8.11
 language_data==1.2.0
-llama-cpp-python @ file:///D:/usr/MIT/MITAPIPython/llama_cpp_python-0.3.8%2Bcu128.gemma3-cp311-cp311-win_amd64.whl#sha256=629e3152604b367e7e7fc51d055d821009aca02b9f8f4d65da678f5518915003
+
 marisa-trie==1.2.1
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
@@ -71,7 +71,7 @@ multidict==6.7.1
 murmurhash==1.0.10
 narwhals==2.22.1
 networkx==3.6.1
-numpy==2.3.1
+numpy==2.0.2
 oauthlib==3.3.1
 ollama==0.6.2
 onnxruntime==1.26.0

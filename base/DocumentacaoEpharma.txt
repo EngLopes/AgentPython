@@ -1,0 +1,124 @@
+Documentação do Sistema: Novo Acesso ePharmaON
+1. Visão Geral
+Este documento descreve o novo método de acesso ao PBM ePharma (ePharmaON). Este novo procedimento foi implementado para substituir o uso de plugin, que estava apresentando muitos problemas nas lojas. Segundo o ePharma, a utilização via plugin deixará de funcionar e esta será a única forma de acessar o sistema.  
+PDF
++ 2
+
+2. Dados de Acesso
+
+URL do Sistema: https://www.epharmaon.com.br/.  
+PDF
++ 2
+
+
+Credenciais Iniciais: Para acessar o site, são necessários o CNPJ da loja e a senha correspondente.  
+PDF
++ 2
+
+3. Passo a Passo de Login
+Acesse o site do ePharmaON e preencha os campos com o CNPJ e a Senha da loja.  
+PDF
++ 2
+
+O sistema solicitará que você escolha o modelo de login.  
+PDF
++ 1
+
+Marque a opção E-mail e clique no botão Gerar Token.  
+PDF
++ 1
+
+Um e-mail com o código de validação será enviado para a caixa de entrada da loja.  
+PDF
++ 1
+
+Insira o código de verificação correto na plataforma para concluir o acesso.  
+PDF
+
+A partir deste ponto, o processo de uso segue da mesma forma que no site com o plugin, apenas com a nova interface.  
+PDF
+
+4. Regras de Negócio e Autenticação (Token)
+
+Destinatário do Token: O e-mail de verificação será enviado exclusivamente para o e-mail da loja em questão.  
+PDF
+
+
+Alteração de E-mail: Não é possível alterar o e-mail de recebimento do código.  
+PDF
+
+
+Contas Individuais: O uso de e-mails individuais dos balconistas não é mais permitido (acabou).  
+PDF
+
+
+Validade do Token: O código de verificação expira em 2 minutos (02:00).  
+PDF
+
+
+Expiração: Caso o tempo de 2 minutos acabe, será necessário solicitar um novo token.  
+PDF
+
+
+Acesso ao E-mail: Não é necessário que o e-mail da loja esteja aberto em todas as máquinas do balcão; basta que esteja aberto em apenas uma delas.  
+PDF
+
+5. Regras de Sessão (Timeout)
+
+Inatividade: Se o site ficar aberto sem uso por muito tempo (mais de uma hora), o sistema fará o deslogue automaticamente.  
+PDF
+
+
+Reconexão: Caso a sessão expire por inatividade, será necessário solicitar e pegar um novo token para entrar no site novamente.  
+PDF
+
+
+Fechamento de Aba: Fechar a aba do navegador não causa o deslogue imediato, desde que a ação ocorra dentro do período de uma hora.  
+PDF
+
+6. Tabela de Credenciais por Loja
+Abaixo estão listadas as credenciais cadastradas para o acesso inicial ao sistema, mapeando o CNPJ, o nome da unidade e a senha:  
+PDF
+
+CNPJ Loja	Nome Loja	Senha
+28763118000190	A NOSSA DROGARIA - MATRIZ	Nossadrogaria#loja01
+28763118000271	A NOSSA DROGARIA-001 - CENTRO	Nossadrogaria#loja02
+28763118000352	A NOSSA DROGARIA-002 - CENTRO	Nossadrogaria#loja03
+28763118004420	A NOSSA DROGARIA - 04-NOVA IGUACU	Nossadrogaria#loja04
+28763118000603	A NOSSA DROGARIA-004 - SANTA	Nossadrogaria#loja05
+28763118000786	A NOSSA DROGARIA - 005 - VILA DO	Nossadrogaria#loja06
+28763118000867	A NOSSA DROGARIA-007- PENHA	Nossadrogaria#loja07
+28763118000948	A NOSSA DROGARIA - CAMPO GRANDE	Nossadrogaria#loja08
+28763118001162	A NOSSA DROGARIA-009- NOVA IG	Nossadrogaria#loja09
+28763118000190	A NOSSA DROGARIA - MATRIZ	Nossadrogaria#loja10
+28763118003459	A NOSSA DROGARIA-11-NILOPOLIS	Nossadrogaria#loja11
+28763118001324	A NOSSA DROGARIA-012- BANGU	Nossadrogaria#loja12
+28763118001405	A NOSSA DROGARIA - CAMPO GRANDE	Nossadrogaria#loja13
+28763118001596	A NOSSA DROGARIA-013 - CENTRO	Nossadrogaria#loja14
+28763118001677	A NOSSA DROGARIA - MADUREIRA	Nossadrogaria#loja15
+28763118001839	A NOSSA DROGARIA - 016	Nossadrogaria#loja16
+28763118001910	A NOSSA DROGARIA-015-NILO	Nossadrogaria#loja17
+28763118002053	A NOSSA DROGARIA-018 - ROBERTO	Nossadrogaria#loja18
+28763118004188	A NOSSA DROGARIA-19 RIO DE JANEIRO	Nossadrogaria#loja19
+28763118002215	A NOSSA DROGARIA - BONSUCESSO	Nossadrogaria#loja20
+28763118002304	A NOSSA DROGARIA - NILOPOLIS	Nossadrogaria#loja21
+28763118002487	A NOSSA DROGARIA - SAO JOAO DE MERITI	Nossadrogaria#loja22
+28763118002649	A NOSSA DROGARIA - PENHA	Nossadrogaria#loja23
+28763118002568	A NOSSA DROGARIA - BONSUCESSO I	Nossadrogaria#loja24
+28763118002800	A NOSSA DROGARIA-026 - CENTRO	Nossadrogaria#loja26
+28763118002991	A NOSSA DROGARIA - CENTRO	Nossadrogaria#loja27
+28763118003106	A NOSSA DROGARIA - MADUREIRA	Nossadrogaria#loja29
+28763118003297	A NOSSA DROGARIA - MEIER	Nossadrogaria#loja30
+28763118003378	A NOSSA DROGARIA - CENTRO	Nossadrogaria#loja31
+28763118001243	A NOSSA DROGARIA-011-NILOPOL	Nossadrogaria#loja32
+28763118003530	A NOSSA DROGARIA - 33 RIO DE JANEIRO	Nossadrogaria#loja33
+28763118003610	A NOSSA DROGARIA-34-DUQUE DE CAXIAS	Nossadrogaria#loja34
+28763118004269	A NOSSA DROGARIA - ANIL	Nossadrogaria#loja35
+28763118003700	A NOSSA DROGARIA-36-NILOPOLIS II	Nossadrogaria#loja36
+28763118003882	A NOSSA DROGARIA - 37 - RIO DE JANEIRO	Nossadrogaria#loja37
+28763118003963	A NOSSA DROGARIA - BELFORD ROXO	Nossadrogaria#loja38
+28763118004005	A NOSSA DROGARIA-39-JARDIM SULACAP	Nossadrogaria#loja39
+28763118002134	A NOSSA DROGARIA-019-CAMPO G	Nossadrogaria#loja40
+28763118000433	A NOSSA DROGARIA-42-BANGU	Nossadrogaria#loja41
+28763118004501	A NOSSA DROGARIA - BRAZ DE PINA	Nossadrogaria#loja42
+28763118004340	A NOSSA DROGARIA DE CAXIAS	Nossadrogaria#loja43
